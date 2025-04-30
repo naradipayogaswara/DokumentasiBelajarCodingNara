@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function pengurangan (a,b){
+  return a-b;
+}
+
+console.log (pengurangan(1,1));
+console.log (pengurangan(2,1));
+console.log (pengurangan(3,1));
+
+//jenis jenis fungsi (bawaan dan didefinisikan)
+
+let nama= "Naradipa Yogaswara"
+
+console.log (nama.slice(1))
+
+//Deklaration function
+
+function ucapansalam(nama){
+  console.log ("Selamat sore"+" "+nama)
+}
+
+ucapansalam ("Nara")
+ucapansalam ("Alex")
+
+//Expression function
+let radss = function (){
+  console.log("Selamat Sore")
+}
+
+radss()
+//Arrow function
+// () => {}
+
+const pangkat = (a) => {return a * a};
+
+console.log (pangkat(2))
+
+
+//Latihan
+const luassegitiga = (b,c) => {return 1/2*b * c};
+
+console.log (luassegitiga(32,40))
+
+function parameter(a,s,d){
+  console.log (a*s*d)
+}
+
+parameter(1,2,3)
+
+//Latihan HOTS
+
+const diskon = (n,m) => {
+  
+  
+  var totaldiskon = n/100*m
+  
+  var totalbayar = m - totaldiskon
+  
+  return {
+    totaldiskon, totalbayar
+  }
+  
+};
+
+console.log (diskon(50,250000))
+console.log (diskon(20,250000))
+console.log (diskon(30,4500000))
+
+
+
+    </script>
+    
+</body>
+</html>

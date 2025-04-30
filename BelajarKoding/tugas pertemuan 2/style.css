@@ -1,0 +1,21 @@
+.bagian1 {
+    color: aliceblue;
+    background-color: black;
+    border-radius: 1%;
+    text-align: center;
+    width: 60%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border: 4px solid blue;
+}
+
+.button {
+    width: 50%;
+    height: 25px;
+    background-color: aliceblue;
+    border: 1px solid blue;
+    border-radius: 45px;
+    margin: auto;
+}

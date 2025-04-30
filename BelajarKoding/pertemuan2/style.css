@@ -1,0 +1,16 @@
+.paragraf {
+    color: blue;
+}
+h1 {
+    color: aqua;
+}
+
+
+.italik {
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.ngatur-paragraf {
+    text-align: right;
+}

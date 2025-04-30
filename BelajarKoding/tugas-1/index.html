@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About My Self</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="bagian1">
+        <div>
+            
+            <!-- Judul dan Foto -->
+            <h1 class="judul" id="test" class="test"><b>About My Self</b></h1>
+            <img class="poto_diri" src="./poto_diri.jpeg" alt="Foto Profil" width="120" height="160">
+            
+        
+            <!-- Informasi Pribadi -->
+            <h2>Data Diri</h2>
+            <div class="pembungkus">
+                <div class= bagian3>
+                    <p><b>Nama Lengkap:</b> Naradipa Yogaswara</p>
+                    <p><b>Nama Panggilan:</b> Nara</p>
+                </div>
+                <div class="bagian4">
+                    <p><b>Tempat, Tanggal Lahir:</b> Tasikmalaya, 15 Desember 2006</p>
+                    <p><b>Alamat:</b> Jalan Pasanggrahan, RT 001 RW 009, Indihiang</p>
+                </div>
+            </div>
+            <div class=bagian5>
+                <p><b>Deskripsi:</b> Perkenalkan nama saya Naradipa Yogaswara seorang mahasiswa yang sedang menempuh studi di Fakultas Teknik Informatika tahun Ke-3. Memiliki ketertarikan terhadap dunia Programming  terutama dibidang pemrograman website, dan Artificial intelligence Enthusiast mengingat perkembangan AI yang terus berkembang secara pesat sehingga mulai mendalami Kecerdasan Buatan, dan Machine Learning.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Social Media Links -->
+    <div class="bagian2">
+        <div>
+
+            <h2>Social Media</h2>
+            <ul>
+                <li><a href="https://www.instagram.com/username" target="_blank">Instagram</a></li>
+                <li><a href="https://wa.me/1234567890" target="_blank">WhatsApp</a></li>
+                <li><a href="https://www.facebook.com/username" target="_blank">Facebook</a></li>
+                <li><a href="https://www.youtube.com/channel/username" target="_blank">YouTube</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Formulir Data Diri -->
+    <div class="bagian6">
+    <div>
+        <h2>Formulir Data Diri</h2>
+        <form action="#" method="post">
+            <!-- Nama -->
+            <label for="nama"><b>Nama Lengkap:</b></label><br>
+            <input type="text" id="nama" name="nama" placeholder="Masukkan nama lengkap" required><br><br>
+    
+            <!-- Email -->
+            <label for="email"><b>Email:</b></label><br>
+            <input type="email" id="email" name="email" placeholder="Masukkan email Anda" required><br><br>
+    
+            <!-- Nomor Telepon -->
+            <label for="telepon"><b>Nomor Telepon:</b></label><br>
+            <input type="tel" id="telepon" name="telepon" placeholder="Masukkan nomor telepon"><br><br>
+    
+            <!-- Tanggal Lahir -->
+            <label for="born"><b>Kapan Dilahirkan</b></label><br>
+            <input type="date" id="born" name="born"><br><br>
+    
+            <!-- Jenis Kelamin -->
+            <label><b>Jenis Kelamin:</b></label><br>
+            <input type="radio" id="laki-laki" name="gender" value="Laki-laki">
+            <label for="laki-laki">Laki-laki</label><br>
+            <input type="radio" id="perempuan" name="gender" value="Perempuan">
+            <label for="perempuan">Perempuan</label><br><br>
+    
+            <!-- Agama -->
+            <label for="agama"><b>Agama:</b></label><br>
+            <select id="agama" name="agama">
+                <option value="Islam">Islam</option>
+                <option value="Kristen">Kristen</option>
+                <option value="Hindu">Hindu</option>
+                <option value="Buddha">Buddha</option>
+                <option value="Lainnya">Lainnya</option>
+            </select><br><br>
+    
+            <!-- Hobi -->
+            <label><b>Hobi:</b></label><br>
+            <input type="checkbox" id="membaca" name="hobby" value="Membaca">
+            <label for="membaca">Membaca</label><br>
+            <input type="checkbox" id="menulis" name="hobby" value="Menulis">
+            <label for="menulis">Menulis</label><br>
+            <input type="checkbox" id="olahraga" name="hobby" value="Olahraga">
+            <label for="olahraga">Olahraga</label><br>
+            <input type="checkbox" id="memasak" name="hobby" value="Memasak">
+            <label for="memasak">Memasak</label><br><br>
+    
+            <!-- Alamat -->
+            <label for="alamat"><b>Alamat Lengkap:</b></label><br>
+            <textarea id="alamat" name="alamat" rows="4" cols="50" placeholder="Masukkan alamat lengkap Anda"></textarea><br><br>
+    
+            <!-- Tombol Submit -->
+            <button type="submit">Kirim Data</button>
+        <form/>
+    </div>
+    
+
+    <!-- Tabel Jadwal Pelajaran -->
+    <h2>Jadwal Pelajaran</h2>
+    <table border="1" cellpadding="5" cellspacing="0">
+        <thead>
+            <tr>
+                <th>Hari</th>
+                <th>Mata Pelajaran</th>
+                <th>Waktu</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Senin</td>
+                <td>Matematika</td>
+                <td>08:00 - 10:00</td>
+            </tr>
+            <tr>
+                <td>Selasa</td>
+                <td>Bahasa Indonesia</td>
+                <td>09:00 - 11:00</td>
+            </tr>
+            <tr>
+                <td>Rabu</td>
+                <td>Fisika</td>
+                <td>07:30 - 09:30</td>
+            </tr>
+            <tr>
+                <td>Kamis</td>
+                <td>Kimia</td>
+                <td>10:00 - 12:00</td>
+            </tr>
+            <tr>
+                <td>Jumat</td>
+                <td>Bahasa Inggris</td>
+                <td>08:30 - 10:30</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

@@ -1,0 +1,25 @@
+.box1 {
+    background-color: yellow;
+    width: 250px;
+    height: 250px;
+    margin: auto;
+    position: relative;
+}
+
+.box2 {
+    background-color: green;
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+.pembungkus {
+    background-color: aquamarine;
+    width: 250px;
+    height: 250px;
+    position: sticky;
+    top: 50%;
+}
